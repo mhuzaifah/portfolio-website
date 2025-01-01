@@ -3,6 +3,7 @@ import { MantineProvider } from '@mantine/core';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 import {Open_Sans} from "next/font/google";
+import emailjs from "@emailjs/browser";
 
 const openSans = Open_Sans({
     subsets: ['latin'],

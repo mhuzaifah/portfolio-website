@@ -4,6 +4,10 @@ import './index.css';
 import { Container, Text, TextInput, Textarea, Button, Title } from '@mantine/core';
 import emailjs from "@emailjs/browser";
 
+emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY);
+emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID);
+emailjs.init(process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID);
+
 export default function ContactSection() {
     const refForm = useRef();
     const [isSubmitting, setIsSubmitting] = useState(false);
