@@ -22,7 +22,7 @@ export default function Hero() {
                     <Portrait />
                     <Title className="heroTitle">
                         Hi, Im <span className="shimmer">Muhammad Huzaifah</span> 👋 <br />
-                        an aspiring <span className="shimmer">Software Developer</span>
+                        an aspiring <span className="shimmer">Software Engineer</span>
                     </Title>
                 </div>
                 <Text className='heroSubHeading'>
