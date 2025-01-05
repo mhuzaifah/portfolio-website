@@ -28,7 +28,7 @@ export default function Header() {
         };
     }, []);
 
-    const modes = ['light', 'dark', 'system'];
+    const modes = ['dark', 'light', 'system'];
     const [currentMode, setCurrentMode] = useState(0);
 
     const handleModeChange = () => {
@@ -87,7 +87,8 @@ export default function Header() {
                         >
                             <AnimatePresence mode="wait">
                                 <motion.div
-                                    key={modes[currentMode]}
+                                    key={modes[0]}
+                                    // key={modes[currentMode]}
                                     initial={{ y: -30, opacity: 0 }}
                                     animate={{ y: 0, opacity: 1 }}
                                     exit={{ y: 30, opacity: 0 }}
@@ -130,12 +131,13 @@ export default function Header() {
 
                 {/* Desktop Theme Button */}
                 <Button
-                    onClick={handleModeChange}
+                    // onClick={handleModeChange}
                     className='headerButton desktopThemeButton'
                 >
                     <AnimatePresence mode="wait">
                         <motion.div
-                            key={modes[currentMode]}
+                            key={modes[0]}
+                            // key={modes[currentMode]}
                             initial={{ y: -30, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
                             exit={{ y: 30, opacity: 0 }}
