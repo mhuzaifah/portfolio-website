@@ -1,6 +1,6 @@
 :root {
   --background: rgb(7 5 10);
-  --foreground: #whitesmoke;
+  --foreground: whitesmoke;
 }
 
 /*@media (prefers-color-scheme: dark) {*/
