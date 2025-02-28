@@ -38,11 +38,11 @@ export default function Header() {
     const renderIcon = () => {
         switch (modes[currentMode]) {
             case 'light':
-                return <FontAwesomeIcon icon={faSun} size='xl' />;
+                return <FontAwesomeIcon icon={faSun} size='xl' className='headerOptionIcon' />;
             case 'dark':
-                return <FontAwesomeIcon icon={faMoon} size='xl' />;
+                return <FontAwesomeIcon icon={faMoon} size='xl' className='headerOptionIcon' />;
             case 'system':
-                return <FontAwesomeIcon icon={faLaptop} size='xl' />;
+                return <FontAwesomeIcon icon={faLaptop} size='xl' className='headerOptionIcon' />;
             default:
                 return null;
         }

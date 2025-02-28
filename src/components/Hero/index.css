@@ -369,7 +369,27 @@
     }
 
     .socialLinks {
-        width: 15%;
+        width: 50%;
     }
 
+    .heroActions {
+        width: 75%;
+    }
+
+}
+
+@media (max-width: 430px) {
+
+    .heroTitle {
+        font-size: 1.5rem;
+    }
+
+    .socialLinks {
+        width: 50%;
+    }
+
+    .heroActions {
+        width: 100%;
+    }
+    
 }

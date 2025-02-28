@@ -60,3 +60,11 @@ body, html {
     font-weight: bold;
     text-align: center;
 }
+
+@media (max-width: 430px) { 
+
+    .miniCard {
+        scale: 0.9;
+    }
+
+}

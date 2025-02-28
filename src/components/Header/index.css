@@ -31,6 +31,10 @@
     align-items: center;
 }
 
+.headerOptionIcon {
+    color: whitesmoke;
+}
+
 .option {
     padding: 0.6rem 1rem;
     border-radius: 0.33rem;
