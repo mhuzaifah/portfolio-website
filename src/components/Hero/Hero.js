@@ -21,12 +21,12 @@ export default function Hero() {
                 <div className="heroMain">
                     <Portrait />
                     <Title className="heroTitle">
-                        Hi, Im <span className="shimmer">Muhammad Huzaifah</span> 👋 <br />
+                        Hi, i'm <span className="shimmer">Muhammad Huzaifah</span> 👋 <br />
                         an aspiring <span className="shimmer">Software Engineer</span>
                     </Title>
                 </div>
                 <Text className='heroSubHeading'>
-                    I am a Software Engineering student with a keen interest in <strong>Fullstack</strong>, <strong>Blockchain</strong>, and <strong>AI</strong> development to create meaningful & effective software.
+                    i am a Software Engineering student with a keen interest in <strong>Fullstack</strong>, <strong>Blockchain</strong>, and <strong>AI</strong> development to create meaningful & effective software.
                 </Text>
                 <div className="heroActions">
                     <div className="actionButtons">

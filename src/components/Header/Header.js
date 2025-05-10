@@ -57,7 +57,7 @@ export default function Header() {
                         <Image className="logo" component={NextImage} src={Logo} alt="Logo" />
                     </Anchor>
                     <Anchor className="option" href="#about" variant="text" size="sm">
-                        About
+                        About Me
                     </Anchor>
                     <Anchor className="option" href="#projects" variant="text" size="sm">
                         Projects
@@ -82,7 +82,7 @@ export default function Header() {
                             <FontAwesomeIcon icon={faBars} size='xl' />
                         </Button>
                         <Button
-                            onClick={handleModeChange}
+                            // onClick={handleModeChange}
                             className='headerButton'
                         >
                             <AnimatePresence mode="wait">

@@ -1,6 +1,6 @@
 import './index.css';
 import {Image} from "@mantine/core";
-import MyPic from '../../../public/portrait1.png';
+import MyPic from '../../../public/portrait2.png';
 import NextImage from "next/image";
 
 export default function Portrait() {
